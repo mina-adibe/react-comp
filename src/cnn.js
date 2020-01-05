@@ -1,15 +1,15 @@
 import React from "react";
 
-const cnn = () => {
+const cnn = props => {
   return (
     <div className="comment">
       <div className="content">
         <a href="/" className="auther">
-          sam
+          {props.auther}
         </a>
 
         <div>
-          <span className="date">today at 4:00 am </span>
+          <span className="date">{props.Timeago} </span>
         </div>
         <div className="text">nice blog post</div>
       </div>
