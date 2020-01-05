@@ -12,7 +12,7 @@ const App = () => {
         </a>
         <div className="content">
           <a href="/" className="auther">
-            sam
+            sam       
           </a>
 
           <div>
