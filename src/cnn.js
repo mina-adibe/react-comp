@@ -9,9 +9,9 @@ const cnn = props => {
         </a>
 
         <div>
-          <span className="date">{props.Timeago} </span>
+          <span className="date">{props.timeAgo} </span>
         </div>
-        <div className="text">nice blog post</div>
+        <div className="text">{props.content}</div>
       </div>
     </div>
   );
